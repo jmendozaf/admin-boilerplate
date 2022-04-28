@@ -5,6 +5,7 @@ This is a boilerplate to build a Laravel Admin with craftable
 - **degit jmendozaf/admin-boilerplate [new project]**
 - **$ composer install**
 - **$ npm install**
+- **$ cp .env.example .env**
 - **$ php artisan key:generate**
 - **$ php artisan migrate**
 - **Edit .env file**
