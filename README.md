@@ -7,7 +7,6 @@ This is a boilerplate to build a Laravel Admin with craftable
 - **$ npm install**
 - **$ cp .env.example .env**
 - **$ php artisan key:generate**
-- **$ php artisan migrate**
 - **Edit .env file**
 - **Replace de db paramters.**
   - **DB_CONNECTION=pgsql**
@@ -16,5 +15,8 @@ This is a boilerplate to build a Laravel Admin with craftable
   - **DB_DATABASE=[db_name]**
   - **DB_USERNAME=[user]**
   - **DB_PASSWORD=[password]**
+  - **$ php artisan migrate**
 - **$ npm run production**
+- **Edit config/eloquent_model_generator.php**
+- **Replace[project_path] with correct path for 'output_path' => '[project_path]/app/Models' line**
 
