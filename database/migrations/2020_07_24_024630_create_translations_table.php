@@ -28,847 +28,6 @@ class CreateTranslationsTable extends Migration
         \DB::table('translations')->insert(array (
             0 =>
                 array (
-                    'id' => 1,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'passwords.reset-password',
-                    'text' => '{"en": "Reset password", "es": "Restablecer contraseña"}',
-                    'metadata' => NULL,
-                    'created_at' => '2020-07-05 22:24:22',
-                    'updated_at' => '2020-08-25 09:24:26',
-                    'deleted_at' => '2020-08-25 09:24:26',
-                ),
-            1 =>
-                array (
-                    'id' => 2,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'passwords.send-password-reset-link',
-                    'text' => '{"en": "Send Password Reset Link", "es": "Enviar link de restablecimiento"}',
-                    'metadata' => NULL,
-                    'created_at' => '2020-07-05 22:24:22',
-                    'updated_at' => '2020-08-25 09:24:26',
-                    'deleted_at' => '2020-08-25 09:24:26',
-                ),
-            2 =>
-                array (
-                    'id' => 3,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'verification.verify-your-email-address',
-                    'text' => '{"en": "Verify Your Email Address", "es": "Verifique su dirección de correo electrónico"}',
-                    'metadata' => NULL,
-                    'created_at' => '2020-07-05 22:24:22',
-                    'updated_at' => '2020-08-25 09:24:26',
-                    'deleted_at' => '2020-08-25 09:24:26',
-                ),
-            3 =>
-                array (
-                    'id' => 4,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'verification.a-fresh-verification-link-has-been-sent-to-your-email-address',
-                    'text' => '{"en": "A fresh verification link has been sent to your email address.", "es": "Se ha enviado un nuevo enlace de verificación a su dirección de correo electrónico."}',
-                    'metadata' => NULL,
-                    'created_at' => '2020-07-05 22:24:22',
-                    'updated_at' => '2020-08-25 09:24:26',
-                    'deleted_at' => '2020-08-25 09:24:26',
-                ),
-            4 =>
-                array (
-                    'id' => 5,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'verification.before-proceeding-please-check-your-email-for-a-verification-link',
-                    'text' => '{"en": "Before proceeding, please check your email for a verification link.", "es": "Antes de continuar, busque en su correo electrónico el enlace de verificación."}',
-                    'metadata' => NULL,
-                    'created_at' => '2020-07-05 22:24:22',
-                    'updated_at' => '2020-08-25 09:24:26',
-                    'deleted_at' => '2020-08-25 09:24:26',
-                ),
-            5 =>
-                array (
-                    'id' => 6,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'verification.if-you-did-not-receive-the-email',
-                    'text' => '{"en": "If you did not receive the email", "es": "Si no recibiste el correo electrónico"}',
-                    'metadata' => NULL,
-                    'created_at' => '2020-07-05 22:24:22',
-                    'updated_at' => '2020-08-25 09:24:26',
-                    'deleted_at' => '2020-08-25 09:24:26',
-                ),
-            6 =>
-                array (
-                    'id' => 7,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'verification.click-here-to-request-another',
-                    'text' => '{"en": "Click here to request another", "es": "Click aquí para solicitar otro"}',
-                    'metadata' => NULL,
-                    'created_at' => '2020-07-05 22:24:22',
-                    'updated_at' => '2020-08-25 09:24:26',
-                    'deleted_at' => '2020-08-25 09:24:26',
-                ),
-            7 =>
-                array (
-                    'id' => 8,
-                    'namespace' => 'brackets/media',
-                    'group' => 'media',
-                    'key' => 'file.not_provided',
-                    'text' => '{"en": "Media file not provided", "es": "El archivo no se encontró"}',
-                    'metadata' => NULL,
-                    'created_at' => '2020-07-08 20:38:33',
-                    'updated_at' => '2020-08-25 09:24:26',
-                    'deleted_at' => '2020-08-25 09:24:26',
-                ),
-            8 =>
-                array (
-                    'id' => 9,
-                    'namespace' => '*',
-                    'group' => 'verification',
-                    'key' => 'verify-your-email-address',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-07-05 22:24:22',
-                    'updated_at' => '2020-08-25 09:24:26',
-                    'deleted_at' => '2020-08-25 09:24:26',
-                ),
-            9 =>
-                array (
-                    'id' => 10,
-                    'namespace' => '*',
-                    'group' => 'verification',
-                    'key' => 'please-click-the-button-below-to-verify-your-email-address',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-07-05 22:24:22',
-                    'updated_at' => '2020-08-25 09:24:26',
-                    'deleted_at' => '2020-08-25 09:24:26',
-                ),
-            10 =>
-                array (
-                    'id' => 11,
-                    'namespace' => '*',
-                    'group' => 'verification',
-                    'key' => 'if-you-did-not-create-an-account-no-further-action-is-required',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-07-05 22:24:22',
-                    'updated_at' => '2020-08-25 09:24:26',
-                    'deleted_at' => '2020-08-25 09:24:26',
-                ),
-            11 =>
-                array (
-                    'id' => 12,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Your email',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            12 =>
-                array (
-                    'id' => 13,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Your password',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            13 =>
-                array (
-                    'id' => 14,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Login',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-06-30 14:04:47',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            14 =>
-                array (
-                    'id' => 15,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Register',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-06-30 14:04:47',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            15 =>
-                array (
-                    'id' => 16,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Forgot my password',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            16 =>
-                array (
-                    'id' => 17,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Confirm Password',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-06-30 14:04:47',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            17 =>
-                array (
-                    'id' => 18,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Please confirm your password before continuing.',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-06-30 14:04:47',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            18 =>
-                array (
-                    'id' => 19,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Password',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-06-30 14:04:47',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            19 =>
-                array (
-                    'id' => 20,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Forgot Your Password?',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-06-30 14:04:47',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            20 =>
-                array (
-                    'id' => 21,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Send Password Reset Link',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-06-30 14:04:47',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            21 =>
-                array (
-                    'id' => 22,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Apply to CONMEBOL media',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            22 =>
-                array (
-                    'id' => 23,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Personal information',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            23 =>
-                array (
-                    'id' => 24,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Last name',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            24 =>
-                array (
-                    'id' => 25,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Birthday',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            25 =>
-                array (
-                    'id' => 26,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Gender',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            26 =>
-                array (
-                    'id' => 27,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Select an option',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            27 =>
-                array (
-                    'id' => 28,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Male',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            28 =>
-                array (
-                    'id' => 29,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Female',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            29 =>
-                array (
-                    'id' => 30,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'N/A',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            30 =>
-                array (
-                    'id' => 31,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Nationality',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            31 =>
-                array (
-                    'id' => 32,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Country of residence',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            32 =>
-                array (
-                    'id' => 33,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Document type',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            33 =>
-                array (
-                    'id' => 34,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Passport',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            34 =>
-                array (
-                    'id' => 35,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Document number',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            35 =>
-                array (
-                    'id' => 36,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Confirm password',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            36 =>
-                array (
-                    'id' => 37,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Phone',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            37 =>
-                array (
-                    'id' => 38,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Cellphone',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            38 =>
-                array (
-                    'id' => 39,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Media Information',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            39 =>
-                array (
-                    'id' => 40,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Media type',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            40 =>
-                array (
-                    'id' => 41,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Newspapper',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            41 =>
-                array (
-                    'id' => 42,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Magazine',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            42 =>
-                array (
-                    'id' => 43,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Website',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            43 =>
-                array (
-                    'id' => 44,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Tv',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            44 =>
-                array (
-                    'id' => 45,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Radio',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            45 =>
-                array (
-                    'id' => 46,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Agency',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            46 =>
-                array (
-                    'id' => 47,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Press Advisory',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            47 =>
-                array (
-                    'id' => 48,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Influencer',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            48 =>
-                array (
-                    'id' => 49,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Other',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            49 =>
-                array (
-                    'id' => 50,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Media name',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            50 =>
-                array (
-                    'id' => 51,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Media Country',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            51 =>
-                array (
-                    'id' => 52,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Business card',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            52 =>
-                array (
-                    'id' => 53,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'I agree to the',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            53 =>
-                array (
-                    'id' => 54,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'terms and conditions',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            54 =>
-                array (
-                    'id' => 55,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Apply!',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            55 =>
-                array (
-                    'id' => 56,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Hello',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            56 =>
-                array (
-                    'id' => 57,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Thank you for registering to CONMEBOL Media!',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            57 =>
-                array (
-                    'id' => 58,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'To continue with the validation process, please check your email for a verification link.',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            58 =>
-                array (
-                    'id' => 59,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'If the link doesn\'t work, please copy and paste it into your browser address bar',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            59 =>
-                array (
-                    'id' => 60,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'You arereceiving this email because we received a password reset request for your account.',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            60 =>
-                array (
-                    'id' => 61,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Click the link below to reset your password.',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            61 =>
-                array (
-                    'id' => 62,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'This password reset link will expire in ',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            62 =>
-                array (
-                    'id' => 63,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'minutes',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            63 =>
-                array (
-                    'id' => 64,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Thanks',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            64 =>
-                array (
-                    'id' => 65,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Your application to CONMEBOL Media has been successfully approved.',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            65 =>
-                array (
-                    'id' => 66,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Now you can login with your credentials provided with your application.',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            66 =>
-                array (
-                    'id' => 67,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Your application to CONMEBOL Media has been rejected.',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            67 =>
-                array (
-                    'id' => 68,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'For any concerns, contact to media@conmebol.net',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            68 =>
-                array (
-                    'id' => 69,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Your email has been registered in our system.',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            69 =>
-                array (
-                    'id' => 70,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Click the link below to verify your email address.',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            70 =>
-                array (
-                    'id' => 128,
                     'namespace' => 'brackets/admin-ui',
                     'group' => 'admin',
                     'key' => 'forms.select_a_date',
@@ -878,225 +37,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            71 =>
+            1 =>
                 array (
-                    'id' => 71,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'In case we need more information, a Conmebol representative will contact you through the contact methods you have provided.',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            72 =>
-                array (
-                    'id' => 72,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Your account is temporarily inactive',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            73 =>
-                array (
-                    'id' => 73,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Thank you for checking your email! We have received your request successfully.',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            74 =>
-                array (
-                    'id' => 74,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Shortly you will receive an approval or not of your application.',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            75 =>
-                array (
-                    'id' => 75,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'E-Mail Address',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-06-30 14:04:47',
-                    'updated_at' => '2020-08-25 09:24:26',
-                    'deleted_at' => '2020-08-25 09:24:26',
-                ),
-            76 =>
-                array (
-                    'id' => 76,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Remember Me',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-06-30 14:04:47',
-                    'updated_at' => '2020-08-25 09:24:26',
-                    'deleted_at' => '2020-08-25 09:24:26',
-                ),
-            77 =>
-                array (
-                    'id' => 77,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Before proceeding, please check your email for a verification link.',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-06-30 14:04:47',
-                    'updated_at' => '2020-08-25 09:24:26',
-                    'deleted_at' => '2020-08-25 09:24:26',
-                ),
-            78 =>
-                array (
-                    'id' => 78,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Toggle navigation',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-06-30 14:04:47',
-                    'updated_at' => '2020-08-25 09:24:26',
-                    'deleted_at' => '2020-08-25 09:24:26',
-                ),
-            79 =>
-                array (
-                    'id' => 79,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Logout',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-06-30 14:04:47',
-                    'updated_at' => '2020-08-25 09:24:26',
-                    'deleted_at' => '2020-08-25 09:24:26',
-                ),
-            80 =>
-                array (
-                    'id' => 80,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'your application to CONMEBOL Media was rejected',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-08-25 09:24:26',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            81 =>
-                array (
-                    'id' => 81,
-                    'namespace' => 'brackets/admin-ui',
-                    'group' => 'admin',
-                    'key' => 'listing.selected_items',
-                    'text' => '{"en": "Selected items", "es": "Items seleccionados"}',
-                    'metadata' => NULL,
-                    'created_at' => '2020-07-08 20:38:33',
-                    'updated_at' => '2021-04-18 18:04:41',
-                    'deleted_at' => '2021-04-18 18:04:41',
-                ),
-            82 =>
-                array (
-                    'id' => 82,
-                    'namespace' => 'brackets/admin-ui',
-                    'group' => 'admin',
-                    'key' => 'listing.check_all_items',
-                    'text' => '{"en": "Check all items", "es": "Seleccionar todo"}',
-                    'metadata' => NULL,
-                    'created_at' => '2020-07-08 20:38:33',
-                    'updated_at' => '2021-04-18 18:04:41',
-                    'deleted_at' => '2021-04-18 18:04:41',
-                ),
-            83 =>
-                array (
-                    'id' => 83,
-                    'namespace' => 'brackets/admin-ui',
-                    'group' => 'admin',
-                    'key' => 'listing.uncheck_all_items',
-                    'text' => '{"en": "Uncheck all items", "es": "Deseleccionar todo"}',
-                    'metadata' => NULL,
-                    'created_at' => '2020-07-08 20:38:33',
-                    'updated_at' => '2021-04-18 18:04:41',
-                    'deleted_at' => '2021-04-18 18:04:41',
-                ),
-            84 =>
-                array (
-                    'id' => 84,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Name',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-06-30 14:04:47',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            85 =>
-                array (
-                    'id' => 85,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'Verify Your Email Address',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-06-30 14:04:47',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            86 =>
-                array (
-                    'id' => 86,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'A fresh verification link has been sent to your email address.',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-06-30 14:04:47',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            87 =>
-                array (
-                    'id' => 87,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'If you did not receive the email',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-06-30 14:04:47',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            88 =>
-                array (
-                    'id' => 88,
-                    'namespace' => '*',
-                    'group' => '*',
-                    'key' => 'click here to request another',
-                    'text' => '[]',
-                    'metadata' => NULL,
-                    'created_at' => '2020-06-30 14:04:47',
-                    'updated_at' => '2020-08-25 18:55:17',
-                    'deleted_at' => '2020-08-25 18:55:17',
-                ),
-            89 =>
-                array (
-                    'id' => 89,
                     'namespace' => 'brackets/admin-ui',
                     'group' => 'admin',
                     'key' => 'operation.succeeded',
@@ -1106,9 +48,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            90 =>
+            2 =>
                 array (
-                    'id' => 90,
                     'namespace' => 'brackets/admin-ui',
                     'group' => 'admin',
                     'key' => 'operation.failed',
@@ -1118,9 +59,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            91 =>
+            3 =>
                 array (
-                    'id' => 91,
                     'namespace' => 'brackets/admin-ui',
                     'group' => 'admin',
                     'key' => 'operation.not_allowed',
@@ -1130,9 +70,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            92 =>
+            4 =>
                 array (
-                    'id' => 92,
                     'namespace' => '*',
                     'group' => 'passwords',
                     'key' => 'reset-password-notification',
@@ -1142,9 +81,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            93 =>
+            5 =>
                 array (
-                    'id' => 93,
                     'namespace' => '*',
                     'group' => 'passwords',
                     'key' => 'you-are-receiving-this-email-because-we-received-a-password-reset-request-for-your-account',
@@ -1154,9 +92,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            94 =>
+            6 =>
                 array (
-                    'id' => 94,
                     'namespace' => '*',
                     'group' => 'passwords',
                     'key' => 'reset-password',
@@ -1166,9 +103,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            95 =>
+            7 =>
                 array (
-                    'id' => 95,
                     'namespace' => '*',
                     'group' => 'passwords',
                     'key' => 'link-will-expire',
@@ -1178,9 +114,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            96 =>
+            8 =>
                 array (
-                    'id' => 96,
                     'namespace' => '*',
                     'group' => 'passwords',
                     'key' => 'if-you-did-not-request-a-password-reset-no-further-action-is-required',
@@ -1190,9 +125,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            97 =>
+            9 =>
                 array (
-                    'id' => 97,
                     'namespace' => '*',
                     'group' => 'admin',
                     'key' => 'admin-user.columns.first_name',
@@ -1202,9 +136,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            98 =>
+            10 =>
                 array (
-                    'id' => 98,
                     'namespace' => '*',
                     'group' => 'admin',
                     'key' => 'admin-user.columns.last_name',
@@ -1214,9 +147,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            99 =>
+            11 =>
                 array (
-                    'id' => 99,
                     'namespace' => '*',
                     'group' => 'admin',
                     'key' => 'admin-user.columns.email',
@@ -1226,9 +158,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            100 =>
+            12 =>
                 array (
-                    'id' => 100,
                     'namespace' => '*',
                     'group' => 'admin',
                     'key' => 'admin-user.columns.password',
@@ -1238,9 +169,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            101 =>
+            13 =>
                 array (
-                    'id' => 101,
                     'namespace' => '*',
                     'group' => 'admin',
                     'key' => 'admin-user.columns.password_repeat',
@@ -1250,9 +180,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            102 =>
+            14 =>
                 array (
-                    'id' => 102,
                     'namespace' => '*',
                     'group' => 'admin',
                     'key' => 'admin-user.columns.activated',
@@ -1262,9 +191,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            103 =>
+            15 =>
                 array (
-                    'id' => 103,
                     'namespace' => '*',
                     'group' => 'admin',
                     'key' => 'admin-user.columns.forbidden',
@@ -1274,9 +202,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            104 =>
+            16 =>
                 array (
-                    'id' => 104,
                     'namespace' => '*',
                     'group' => 'admin',
                     'key' => 'admin-user.columns.language',
@@ -1286,9 +213,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            105 =>
+            17 =>
                 array (
-                    'id' => 105,
                     'namespace' => 'brackets/admin-ui',
                     'group' => 'admin',
                     'key' => 'forms.select_an_option',
@@ -1298,9 +224,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            106 =>
+            18 =>
                 array (
-                    'id' => 106,
                     'namespace' => '*',
                     'group' => 'admin',
                     'key' => 'admin-user.columns.roles',
@@ -1310,9 +235,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            107 =>
+            19 =>
                 array (
-                    'id' => 107,
                     'namespace' => 'brackets/admin-ui',
                     'group' => 'admin',
                     'key' => 'forms.select_options',
@@ -1322,9 +246,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            108 =>
+            20 =>
                 array (
-                    'id' => 108,
                     'namespace' => '*',
                     'group' => 'admin',
                     'key' => 'admin-user.actions.create',
@@ -1334,9 +257,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            109 =>
+            21 =>
                 array (
-                    'id' => 109,
                     'namespace' => 'brackets/admin-ui',
                     'group' => 'admin',
                     'key' => 'btn.save',
@@ -1346,9 +268,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            110 =>
+            22 =>
                 array (
-                    'id' => 110,
                     'namespace' => '*',
                     'group' => 'admin',
                     'key' => 'admin-user.actions.edit',
@@ -1358,9 +279,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            111 =>
+            23 =>
                 array (
-                    'id' => 111,
                     'namespace' => '*',
                     'group' => 'admin',
                     'key' => 'admin-user.actions.index',
@@ -1370,9 +290,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            112 =>
+            24 =>
                 array (
-                    'id' => 112,
                     'namespace' => 'brackets/admin-ui',
                     'group' => 'admin',
                     'key' => 'placeholder.search',
@@ -1382,9 +301,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            113 =>
+            25 =>
                 array (
-                    'id' => 113,
                     'namespace' => 'brackets/admin-ui',
                     'group' => 'admin',
                     'key' => 'btn.search',
@@ -1394,9 +312,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            114 =>
+            26 =>
                 array (
-                    'id' => 114,
                     'namespace' => '*',
                     'group' => 'admin',
                     'key' => 'admin-user.columns.id',
@@ -1406,9 +323,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            115 =>
+            27 =>
                 array (
-                    'id' => 115,
                     'namespace' => 'brackets/admin-ui',
                     'group' => 'admin',
                     'key' => 'btn.edit',
@@ -1418,9 +334,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            116 =>
+            28 =>
                 array (
-                    'id' => 116,
                     'namespace' => 'brackets/admin-ui',
                     'group' => 'admin',
                     'key' => 'btn.delete',
@@ -1430,9 +345,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            117 =>
+            29 =>
                 array (
-                    'id' => 117,
                     'namespace' => 'brackets/admin-ui',
                     'group' => 'admin',
                     'key' => 'pagination.overview',
@@ -1442,9 +356,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            118 =>
+            30 =>
                 array (
-                    'id' => 118,
                     'namespace' => 'brackets/admin-ui',
                     'group' => 'admin',
                     'key' => 'index.no_items',
@@ -1454,9 +367,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            119 =>
+            31 =>
                 array (
-                    'id' => 119,
                     'namespace' => 'brackets/admin-ui',
                     'group' => 'admin',
                     'key' => 'index.try_changing_items',
@@ -1466,9 +378,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            120 =>
+            32 =>
                 array (
-                    'id' => 120,
                     'namespace' => 'brackets/admin-ui',
                     'group' => 'admin',
                     'key' => 'btn.new',
@@ -1478,9 +389,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            121 =>
+            33 =>
                 array (
-                    'id' => 121,
                     'namespace' => 'brackets/admin-ui',
                     'group' => 'admin',
                     'key' => 'forms.select_date_and_time',
@@ -1490,9 +400,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            122 =>
+            34 =>
                 array (
-                    'id' => 122,
                     'namespace' => 'brackets/admin-ui',
                     'group' => 'admin',
                     'key' => 'profile_dropdown.account',
@@ -1502,9 +411,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            123 =>
+            35 =>
                 array (
-                    'id' => 123,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'admin',
                     'key' => 'profile_dropdown.profile',
@@ -1514,9 +422,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            124 =>
+            36 =>
                 array (
-                    'id' => 124,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'admin',
                     'key' => 'profile_dropdown.password',
@@ -1526,9 +433,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            125 =>
+            37 =>
                 array (
-                    'id' => 125,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'admin',
                     'key' => 'profile_dropdown.logout',
@@ -1538,9 +444,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            126 =>
+            38 =>
                 array (
-                    'id' => 126,
                     'namespace' => 'brackets/admin-ui',
                     'group' => 'admin',
                     'key' => 'sidebar.content',
@@ -1550,9 +455,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            127 =>
+            39 =>
                 array (
-                    'id' => 127,
                     'namespace' => 'brackets/admin-ui',
                     'group' => 'admin',
                     'key' => 'sidebar.settings',
@@ -1562,9 +466,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:19',
                     'deleted_at' => NULL,
                 ),
-            128 =>
+            40 =>
                 array (
-                    'id' => 129,
                     'namespace' => 'brackets/admin-ui',
                     'group' => 'admin',
                     'key' => 'btn.dates',
@@ -1574,9 +477,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            129 =>
+            41 =>
                 array (
-                    'id' => 130,
                     'namespace' => 'brackets/admin-ui',
                     'group' => 'admin',
                     'key' => 'btn.sectors',
@@ -1586,9 +488,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            130 =>
+            42 =>
                 array (
-                    'id' => 131,
                     'namespace' => 'brackets/admin-ui',
                     'group' => 'admin',
                     'key' => 'btn.menus',
@@ -1598,9 +499,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            131 =>
+            43 =>
                 array (
-                    'id' => 132,
                     'namespace' => '*',
                     'group' => 'admin',
                     'key' => 'user.columns.phone',
@@ -1610,9 +510,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            132 =>
+            44 =>
                 array (
-                    'id' => 133,
                     'namespace' => 'brackets/admin-ui',
                     'group' => 'admin',
                     'key' => 'media_uploader.max_number_of_files',
@@ -1622,9 +521,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            133 =>
+            45 =>
                 array (
-                    'id' => 134,
                     'namespace' => 'brackets/admin-ui',
                     'group' => 'admin',
                     'key' => 'media_uploader.max_size_pre_file',
@@ -1634,9 +532,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            134 =>
+            46 =>
                 array (
-                    'id' => 135,
                     'namespace' => 'brackets/admin-ui',
                     'group' => 'admin',
                     'key' => 'media_uploader.private_title',
@@ -1646,9 +543,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            135 =>
+            47 =>
                 array (
-                    'id' => 136,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'admin',
                     'key' => 'login.title',
@@ -1658,9 +554,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            136 =>
+            48 =>
                 array (
-                    'id' => 137,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'admin',
                     'key' => 'login.sign_in_text',
@@ -1670,9 +565,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            137 =>
+            49 =>
                 array (
-                    'id' => 138,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'admin',
                     'key' => 'auth_global.email',
@@ -1682,9 +576,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            138 =>
+            50 =>
                 array (
-                    'id' => 139,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'admin',
                     'key' => 'auth_global.password',
@@ -1694,9 +587,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            139 =>
+            51 =>
                 array (
-                    'id' => 140,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'admin',
                     'key' => 'login.button',
@@ -1706,9 +598,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            140 =>
+            52 =>
                 array (
-                    'id' => 141,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'admin',
                     'key' => 'login.forgot_password',
@@ -1718,9 +609,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            141 =>
+            53 =>
                 array (
-                    'id' => 142,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'title',
@@ -1730,9 +620,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            142 =>
+            54 =>
                 array (
-                    'id' => 143,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'index.all_groups',
@@ -1742,9 +631,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            143 =>
+            55 =>
                 array (
-                    'id' => 144,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'index.edit',
@@ -1754,9 +642,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            144 =>
+            56 =>
                 array (
-                    'id' => 145,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'index.default_text',
@@ -1766,9 +653,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            145 =>
+            57 =>
                 array (
-                    'id' => 146,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'index.translation',
@@ -1778,9 +664,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            146 =>
+            58 =>
                 array (
-                    'id' => 147,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'index.translation_for_language',
@@ -1790,9 +675,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            147 =>
+            59 =>
                 array (
-                    'id' => 148,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'import.title',
@@ -1802,9 +686,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            148 =>
+            60 =>
                 array (
-                    'id' => 149,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'import.notice',
@@ -1814,9 +697,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            149 =>
+            61 =>
                 array (
-                    'id' => 150,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'import.upload_file',
@@ -1826,9 +708,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            150 =>
+            62 =>
                 array (
-                    'id' => 151,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'import.choose_file',
@@ -1838,9 +719,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            151 =>
+            63 =>
                 array (
-                    'id' => 152,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'import.language_to_import',
@@ -1850,9 +730,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            152 =>
+            64 =>
                 array (
-                    'id' => 153,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'fields.select_language',
@@ -1862,9 +741,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            153 =>
+            65 =>
                 array (
-                    'id' => 154,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'import.do_not_override',
@@ -1874,9 +752,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            154 =>
+            66 =>
                 array (
-                    'id' => 155,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'import.conflict_notice_we_have_found',
@@ -1886,9 +763,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            155 =>
+            67 =>
                 array (
-                    'id' => 156,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'import.conflict_notice_translations_to_be_imported',
@@ -1898,9 +774,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            156 =>
+            68 =>
                 array (
-                    'id' => 157,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'import.conflict_notice_differ',
@@ -1910,9 +785,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            157 =>
+            69 =>
                 array (
-                    'id' => 158,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'fields.group',
@@ -1922,9 +796,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            158 =>
+            70 =>
                 array (
-                    'id' => 159,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'fields.default',
@@ -1934,9 +807,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            159 =>
+            71 =>
                 array (
-                    'id' => 160,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'fields.current_value',
@@ -1946,9 +818,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            160 =>
+            72 =>
                 array (
-                    'id' => 161,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'fields.imported_value',
@@ -1958,9 +829,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            161 =>
+            73 =>
                 array (
-                    'id' => 162,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'import.sucesfully_notice',
@@ -1970,9 +840,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            162 =>
+            74 =>
                 array (
-                    'id' => 163,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'import.sucesfully_notice_update',
@@ -1982,9 +851,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            163 =>
+            75 =>
                 array (
-                    'id' => 164,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'index.export',
@@ -1994,9 +862,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            164 =>
+            76 =>
                 array (
-                    'id' => 165,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'export.notice',
@@ -2006,9 +873,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            165 =>
+            77 =>
                 array (
-                    'id' => 166,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'export.language_to_export',
@@ -2018,9 +884,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            166 =>
+            78 =>
                 array (
-                    'id' => 167,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'btn.export',
@@ -2030,9 +895,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            167 =>
+            79 =>
                 array (
-                    'id' => 168,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'index.title',
@@ -2042,9 +906,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            168 =>
+            80 =>
                 array (
-                    'id' => 169,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'btn.import',
@@ -2054,9 +917,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            169 =>
+            81 =>
                 array (
-                    'id' => 170,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'btn.re_scan',
@@ -2066,9 +928,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            170 =>
+            82 =>
                 array (
-                    'id' => 171,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'index.no_items',
@@ -2078,9 +939,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            171 =>
+            83 =>
                 array (
-                    'id' => 172,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'index.try_changing_items',
@@ -2090,9 +950,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            172 =>
+            84 =>
                 array (
-                    'id' => 173,
                     'namespace' => '*',
                     'group' => 'passwords',
                     'key' => 'hello',
@@ -2102,9 +961,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            173 =>
+            85 =>
                 array (
-                    'id' => 174,
                     'namespace' => '*',
                     'group' => 'passwords',
                     'key' => 'regards',
@@ -2114,9 +972,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            174 =>
+            86 =>
                 array (
-                    'id' => 175,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'activations',
                     'key' => 'email.line',
@@ -2126,9 +983,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            175 =>
+            87 =>
                 array (
-                    'id' => 176,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'activations',
                     'key' => 'email.action',
@@ -2138,9 +994,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            176 =>
+            88 =>
                 array (
-                    'id' => 177,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'activations',
                     'key' => 'email.notRequested',
@@ -2150,9 +1005,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            177 =>
+            89 =>
                 array (
-                    'id' => 178,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'admin',
                     'key' => 'activations.activated',
@@ -2162,9 +1016,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            178 =>
+            90 =>
                 array (
-                    'id' => 179,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'admin',
                     'key' => 'activations.invalid_request',
@@ -2174,9 +1027,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            179 =>
+            91 =>
                 array (
-                    'id' => 180,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'admin',
                     'key' => 'activations.disabled',
@@ -2186,9 +1038,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            180 =>
+            92 =>
                 array (
-                    'id' => 181,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'admin',
                     'key' => 'activations.sent',
@@ -2198,9 +1049,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            181 =>
+            93 =>
                 array (
-                    'id' => 182,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'admin',
                     'key' => 'passwords.sent',
@@ -2210,9 +1060,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            182 =>
+            94 =>
                 array (
-                    'id' => 183,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'admin',
                     'key' => 'passwords.reset',
@@ -2222,9 +1071,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            183 =>
+            95 =>
                 array (
-                    'id' => 184,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'admin',
                     'key' => 'passwords.invalid_token',
@@ -2234,9 +1082,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            184 =>
+            96 =>
                 array (
-                    'id' => 185,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'admin',
                     'key' => 'passwords.invalid_user',
@@ -2246,9 +1093,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            185 =>
+            97 =>
                 array (
-                    'id' => 186,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'admin',
                     'key' => 'passwords.invalid_password',
@@ -2258,9 +1104,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            186 =>
+            98 =>
                 array (
-                    'id' => 187,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'resets',
                     'key' => 'email.line',
@@ -2270,9 +1115,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            187 =>
+            99 =>
                 array (
-                    'id' => 188,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'resets',
                     'key' => 'email.action',
@@ -2282,9 +1126,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            188 =>
+            100 =>
                 array (
-                    'id' => 189,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'resets',
                     'key' => 'email.notRequested',
@@ -2294,9 +1137,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            189 =>
+            101 =>
                 array (
-                    'id' => 190,
                     'namespace' => '*',
                     'group' => 'auth',
                     'key' => 'failed',
@@ -2306,9 +1148,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            190 =>
+            102 =>
                 array (
-                    'id' => 191,
                     'namespace' => '*',
                     'group' => 'auth',
                     'key' => 'throttle',
@@ -2318,9 +1159,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            191 =>
+            103 =>
                 array (
-                    'id' => 192,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'admin',
                     'key' => 'activation_form.title',
@@ -2330,9 +1170,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            192 =>
+            104 =>
                 array (
-                    'id' => 193,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'admin',
                     'key' => 'activation_form.note',
@@ -2342,9 +1181,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            193 =>
+            105 =>
                 array (
-                    'id' => 194,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'admin',
                     'key' => 'activation_form.button',
@@ -2354,9 +1192,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            194 =>
+            106 =>
                 array (
-                    'id' => 195,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'admin',
                     'key' => 'forgot_password.title',
@@ -2366,9 +1203,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            195 =>
+            107 =>
                 array (
-                    'id' => 196,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'admin',
                     'key' => 'forgot_password.note',
@@ -2378,9 +1214,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            196 =>
+            108 =>
                 array (
-                    'id' => 197,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'admin',
                     'key' => 'forgot_password.button',
@@ -2390,9 +1225,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            197 =>
+            109 =>
                 array (
-                    'id' => 198,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'admin',
                     'key' => 'password_reset.title',
@@ -2402,9 +1236,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            198 =>
+            110 =>
                 array (
-                    'id' => 199,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'admin',
                     'key' => 'password_reset.note',
@@ -2414,9 +1247,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            199 =>
+            111 =>
                 array (
-                    'id' => 200,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'admin',
                     'key' => 'auth_global.password_confirm',
@@ -2426,9 +1258,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            200 =>
+            112 =>
                 array (
-                    'id' => 201,
                     'namespace' => 'brackets/admin-auth',
                     'group' => 'admin',
                     'key' => 'password_reset.button',
@@ -2438,9 +1269,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            201 =>
+            113 =>
                 array (
-                    'id' => 203,
                     'namespace' => 'brackets/admin-ui',
                     'group' => 'admin',
                     'key' => 'footer.powered_by',
@@ -2450,9 +1280,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            202 =>
+            114 =>
                 array (
-                    'id' => 204,
                     'namespace' => 'brackets/admin-translations',
                     'group' => 'admin',
                     'key' => 'fields.created_at',
@@ -2462,9 +1291,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            203 =>
+            115 =>
                 array (
-                    'id' => 205,
                     'namespace' => '*',
                     'group' => '*',
                     'key' => 'Reset Password',
@@ -2474,9 +1302,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            204 =>
+            116 =>
                 array (
-                    'id' => 206,
                     'namespace' => '*',
                     'group' => '*',
                     'key' => 'Your application was approved',
@@ -2486,9 +1313,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            205 =>
+            117 =>
                 array (
-                    'id' => 207,
                     'namespace' => '*',
                     'group' => '*',
                     'key' => 'Your application was rejected',
@@ -2498,9 +1324,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            206 =>
+            118 =>
                 array (
-                    'id' => 208,
                     'namespace' => '*',
                     'group' => '*',
                     'key' => 'Please verify your E-mail',
@@ -2510,9 +1335,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            207 =>
+            119 =>
                 array (
-                    'id' => 209,
                     'namespace' => '*',
                     'group' => '*',
                     'key' => 'Images',
@@ -2522,9 +1346,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            208 =>
+            120 =>
                 array (
-                    'id' => 210,
                     'namespace' => '*',
                     'group' => '*',
                     'key' => 'Manage access',
@@ -2534,9 +1357,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            209 =>
+            121 =>
                 array (
-                    'id' => 211,
                     'namespace' => '*',
                     'group' => '*',
                     'key' => 'Translations',
@@ -2546,9 +1368,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            210 =>
+            122 =>
                 array (
-                    'id' => 212,
                     'namespace' => '*',
                     'group' => '*',
                     'key' => 'Configuration',
@@ -2558,9 +1379,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            211 =>
+            123 =>
                 array (
-                    'id' => 213,
                     'namespace' => '*',
                     'group' => '*',
                     'key' => 'Poster',
@@ -2570,9 +1390,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            212 =>
+            124 =>
                 array (
-                    'id' => 214,
                     'namespace' => '*',
                     'group' => '*',
                     'key' => 'Banners',
@@ -2582,9 +1401,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            213 =>
+            125 =>
                 array (
-                    'id' => 215,
                     'namespace' => '*',
                     'group' => '*',
                     'key' => 'Close',
@@ -2594,9 +1412,8 @@ class CreateTranslationsTable extends Migration
                     'updated_at' => '2021-04-20 18:16:20',
                     'deleted_at' => NULL,
                 ),
-            214 =>
+            126 =>
                 array (
-                    'id' => 202,
                     'namespace' => 'brackets/admin-ui',
                     'group' => 'admin',
                     'key' => 'page_title_suffix',
