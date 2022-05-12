@@ -16,8 +16,9 @@ use Illuminate\Support\Facades\Route;
 Auth::routes();
 Auth::routes(['verify' => true]);
 
-
-Route::get('/', function () {return redirect('admin/login');});
+Route::namespace('Frontend')->group(static function() {
+    Route::get('/','HomeController@index')->name('index');
+});
 
 /* Auto-generated admin routes */
 Route::middleware(['auth:' . config('admin-auth.defaults.guard'), 'admin'])->group(static function () {

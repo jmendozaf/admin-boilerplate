@@ -14,6 +14,11 @@ const mix = require('laravel-mix');
 mix.js(['resources/js/admin/admin.js'], 'public/js')
     .sass('resources/sass/admin/admin.scss', 'public/css');
 
+mix.js(['resources/js/frontend/frontend.js'], 'public/js')
+    .sass('resources/sass/frontend/frontend.scss', 'public/css')
+    .copyDirectory('resources/images/frontend', 'public/images/frontend')
+    .copyDirectory('resources/fonts/frontend', 'public/fonts/frontend');
+
 if (mix.inProduction()) {
     mix.version();
 }
